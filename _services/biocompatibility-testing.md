@@ -7,7 +7,7 @@ dropdown: true
 videos:
   - video-link: https://www.youtube.com/embed/UCYK8EcxAcw
 ---
-Dentistry is one of the rare medical professions that places foreign materials into the body and expects it to be accepted and sustained. The reality is, many people have sensitivities known and unknown to materials and chemicals. At Integrative Dentistry we are very cognisant  about offering the safest treatment for our patients. Material safety is of utmost importance.
+<!-- Dentistry is one of the rare medical professions that places foreign materials into the body and expects it to be accepted and sustained. The reality is, many people have sensitivities known and unknown to materials and chemicals. At Integrative Dentistry we are very cognisant  about offering the safest treatment for our patients. Material safety is of utmost importance.
 
 In addition to lab testing for biocompatibility, we offer chair side/pre-procedure muscle testing, for accurate and immediate material safety and biocompatibility.  
 
@@ -19,4 +19,5 @@ Muscle testing a practical application of applied kinesiology to get specific â€
 
 __Videos__
 
-{% include videos.html %}
+{% include videos.html %} -->
+Coming Soon

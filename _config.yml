@@ -43,6 +43,10 @@ collections:
     output: true
     permalink: /services/:name/
     order:
+      - biocompatibility-testing.md
+      - intravenous-therapy.md
+      - muscle-testing.md
+      - facial-esthetics.md
       - teledentistry.md
       - dental-anxiety-clearing.md
       - airway-optimization.md
