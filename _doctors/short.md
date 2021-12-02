@@ -10,9 +10,7 @@ Dr. Short specializes in general dentistry with a focus in alternative technique
 
 + Accredited IAOMT
 + IV Nutrition Certified
-+ PRF Facial Aesthetics Certified
-+ [Facial Esthetics](/services/facial-esthetics)
-+ IV Nutrition _Coming Soon_
++ PRF Facial Esthetics Certified
 
 Dr. Short was raised in a commercial fishing family in Southeast Alaska. After competing in collegiate basketball for the Lower Columbia College Lady Red Devils, she completed her undergraduate studies in general sciences at Western Washington University. After dental school, working for the Indian Health Services in Arizona for four years and two years of extensive travel and work, she was drawn back to the Pacific Northwest. She loves to travel, immerse herself in new cultures, explore worldly and local cuisine, learn new skills, enhance consciousness, attempt outdoors and water adventures/sports, and continue to commercial fish with her family.
 
