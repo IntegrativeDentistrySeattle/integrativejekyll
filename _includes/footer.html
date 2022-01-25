@@ -9,7 +9,10 @@
                     {% if serv.dropdown %}
                     <li class="footer-menu-item">
                       <a class="footer-menu-link" href={{serv.url}}>
-                        {% if serv.title == "Teledentistry"  or serv.title == "Dental Anxiety Clearing" or serv.title == "Airway Optimization" %}
+                        {% if serv.title == "Biocompatibility Testing"  or serv.title == "Intravenous Therapy" or serv.title == "Muscle Testing" %}
+                        <font color="#34b2b6">COMING SOON! </font>
+                        {% endif %}
+                        {% if serv.title == "Teledentistry"  or serv.title == "Dental Anxiety Clearing" or serv.title == "Airway Optimization"  or serv.title == "Facial Esthetics"%}
                         <font color="#34b2b6">NEW! </font>
                         {% endif %}
                         {{ serv.pagetitle }}
