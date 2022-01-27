@@ -754,6 +754,23 @@ label.error {
     background-color:white;
 }
 
+.value-title {
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.value-cmd {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+}
+
+.value-single {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+
 #navbarSupportedContent {
     z-index: 10000;
 }
