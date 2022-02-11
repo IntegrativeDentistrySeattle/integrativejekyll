@@ -773,6 +773,48 @@ label.error {
     font-size: 14px;
 }
 
+.text-bubble {
+    -webkit-animation: fadeIn .25s ease;
+    animation: fadeIn .25s ease;
+    position: fixed;
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    -webkit-box-align: end;
+    -webkit-align-items: flex end;
+    align-items: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    right: 30px;
+    bottom: 30px;
+    z-index: 99999999;
+}
+
+.text-bubble-bubble {
+    width: 57px;
+    height: 57px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    border: none;
+    border-radius: 99999px;
+    box-sizing: border-box;
+    color: #fff;
+    outline: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #0c0d0d;
+}
+
+.text-bubble-icon-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
 #navbarSupportedContent {
     z-index: 10000;
 }
