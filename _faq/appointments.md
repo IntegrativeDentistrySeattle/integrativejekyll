@@ -1,15 +1,33 @@
 ---
-title: Phones
+title: Appointments
 order: 1
 ---
-<p class="question">Can I request appointments on your website, or do I need to call?</p>
-You can schedule an appointment via [this link](https://dental4.me/integrativedentistry) for a time that’s most convenient for you, or give us a call at 206-367-6453. Many people prefer to schedule appointments online since it lets you choose what works for you at your own leisure and our site allows you to see all of our available appointments!
+<p class="faq-question">Q Can I request appointments on your website, or do I need to call?</p>
+<p class="faq-answer ml-5">A You can schedule an appointment via <a href="https://dental4.me/integrativedentistry">this link</a> for a time that’s most convenient for you, or give us a call at 206-367-6453. Many people prefer to schedule appointments online since it lets you choose what works for you at your own leisure and our site allows you to see all of our available appointments!</p>
 
+<div class="row">
+    <p class="question">Q Should I arrive early for my first appointment?</p>
+</div>
+<div class="row">
+    <div class="col-1 text-right">A.</div>
+    <div class="col">
+    If you have not filled out your new patient paperwork online, please arrive 15 minutes early to your appointment so we can have you fill them out in the office. Otherwise, no more than 5 minutes early to your appointment should be enough.
+    </div>
+</div>
 
-<p class="question">Should I arrive early for my first appointment?</p>
-If you have not filled out your new patient paperwork online, please arrive 15 minutes early to your appointment so we can have you fill them out in the office. Otherwise, no more than 5 minutes early to your appointment should be enough.
-
-
+<table>
+    <tbody>
+        <tr class="d-flex">
+            <td class="col-sm-1">Q</td>
+            <td class="col-sm-11">Should I bring anything to my appointment?</td>
+        </tr>
+        <tr class="d-flex">
+            <td class="col-sm-1"></td>
+            <td class="col-sm-1">A.</td>
+            <td class="col-sm-10">If you have any insurance that you would like us to courtesy bill for your reimbursement, please bring your dental card with you. Also have handy any past x-rays or information that may help during your initial appointment if you have not sent it via email already.</td>
+        </tr>
+    </tbody>
+</table>
 <p class="question">Should I bring anything to my appointment?</p>
 If you have any insurance that you would like us to courtesy bill for your reimbursement, please bring your dental card with you. Also have handy any past x-rays or information that may help during your initial appointment if you have not sent it via email already.
 

@@ -590,6 +590,7 @@ a:hover {
     text-transform: uppercase;
 }
 
+.faq-wrapper,
 .service-wrapper,
 .post-list-title,
 .post-title,
@@ -815,8 +816,14 @@ label.error {
     color: #fff;
 }
 
-.question {
+.faq-question {
     font-weight: bold;
+}
+
+.faq-header {
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
 }
 
 #navbarSupportedContent {
