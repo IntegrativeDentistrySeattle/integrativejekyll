@@ -84,8 +84,6 @@ collections:
     output: true
     permalink: /news/:name/
   faq:
-    output: true
-    permalink: /faq/
 
 autopages:
   enabled: true

@@ -815,6 +815,10 @@ label.error {
     color: #fff;
 }
 
+.question {
+    font-weight: bold;
+}
+
 #navbarSupportedContent {
     z-index: 10000;
 }
