@@ -826,6 +826,20 @@ label.error {
     font-size: 20px;
 }
 
+.faq-block .row {
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+
+.faq-block a {
+    color:#9b9b9b;
+}
+
+.faq-block .faq-answer {
+    color:#34b2b6;
+    font-weight:400;
+}
+
 #navbarSupportedContent {
     z-index: 10000;
 }

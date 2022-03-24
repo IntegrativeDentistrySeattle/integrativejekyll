@@ -2,10 +2,7 @@
 title: Insurance
 order: 2
 ---
-<p class="question">Does your office accept insurance?</p>
-Our office does accept insurance. We are out-of-network with all insurances, but we do bill insurances that accept claims from non-contracted dentists. We collect for all services performed on that day, and the insurance is asked to reimburse you back directly - which insurances tend to do when billed by an out-of-network provider.
 
-
-<p class="question">Are you in-network with my insurance?</p>
-Since we are not contracted with any insurance, we would be out-of-network with all plans. This does change the structure of how they reimburse sometimes. For more information, we suggest calling your insurance directly to determine what your benefits would look like ahead of time.
-
+{% for question-item in site.data.insurance %}
+{% include faq-block.html %}
+{% endfor %}
