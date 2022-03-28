@@ -782,7 +782,7 @@ label.error {
     display: -webkit-box;
     display: -webkit-flex;
     -webkit-box-align: end;
-    -webkit-align-items: flex end;
+    -webkit-align-items: flex-end;
     align-items: flex-end;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -797,7 +797,10 @@ label.error {
     width: 57px;
     height: 57px;
     -webkit-box-align: center;
+    -webkit-justify-content: center;
     -webkit-align-items: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
     border: none;
     border-radius: 99999px;
@@ -807,13 +810,6 @@ label.error {
     overflow: hidden;
     position: relative;
     background-color: #0c0d0d;
-}
-
-.text-bubble-icon-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    color: #fff;
 }
 
 .faq-question {
