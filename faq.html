@@ -19,7 +19,7 @@ permalink: /faq/
             <div class="card">
                 {% assign sorted_faq = site.faq | sort:"order" %}
                 {% for faq in sorted_faq %}
-                <div class="card-header" id="headingOne">
+                <div class="card-header" id={{ faq.title | replace: " ", "" }} onclick="faqScroll(this.id)">
                     <h5 class="mb-0">
                         <button class="btn btn-link faq-header" data-toggle="collapse" data-target={{ "#collapse" |
                             append: faq.title }} aria-expanded="false" aria-controls={{ "collapse" | append:

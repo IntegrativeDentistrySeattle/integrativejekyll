@@ -50,6 +50,10 @@ jQuery(document).ready(function ($) {
   })
 });
 
+function faqScroll(id){
+  document.getElementById(id).scrollIntoView();
+}
+
 // Cross-browser implementation of element.addEventListener()
 function listen(evnt, elem, func) {
   if (elem.addEventListener)  // W3C DOM
