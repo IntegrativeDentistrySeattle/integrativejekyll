@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/assets/css/all.min.css">
     <link rel="stylesheet" href="/assets/css/index.css">
     <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto:100,300,400|Roboto+Condensed|Playfair+Display|Open+Sans|Montserrat:200"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto:100,300,400|Roboto+Condensed|Playfair+Display|Open+Sans|Montserrat:200,300|Sorts+Mill+Goudy"
         rel="stylesheet">
     <script src="/assets/js/jquery-3.4.1.slim.min.js"></script>
     <script src="/assets/js/jquery.validate.min.js"></script>
@@ -72,6 +72,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/meet-the-doctors/">Meet Your Dentists</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about-us/our-values">Our Values</a>
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -82,6 +85,7 @@
                             <a class="dropdown-item" href="/services/natural-dentistry-seattle">Biological Dentistry</a>
                             <a class="dropdown-item" href="/about-us/naturopathic-dentist-seattle-office">Our Office And Technology</a>
                             <a class="dropdown-item" href="/about-us/demystifying-dental-procedures">Demystifying Dental Procedures</a>
+                            <a class="dropdown-item" href="/about-us/seattle-holistic-dentist-why-different">Why We Are Different</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -96,7 +100,7 @@
                                 {% if serv.title == "Biocompatibility Testing" or serv.title == "Intravenous Therapy" or serv.title == "Muscle Testing" %}
                                 <font color="#34b2b6">COMING SOON! </font>
                                 {% endif %}
-                                {% if serv.title == "Teledentistry" or serv.title == "Dental Anxiety Clearing" or serv.title == "Airway Optimization" or serv.title == "Facial Esthetics" %}
+                                {% if serv.title == "Teledentistry" or serv.title == "Dental Anxiety Clearing" or serv.title == "Airway Optimization" or serv.title == "Facial Esthetics" or serv.title == "Perio Protect Trays" or serv.title == "Guided Biofilm Therapy" %}
                                 <font color="#34b2b6">NEW! </font>
                                 {% endif %}
                                 {{ serv.pagetitle }}
@@ -116,11 +120,10 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/about-us/seattle-holistic-dentist-why-different">Why We Are
-                            Different</a>
+                        <a class="nav-link" href="/faq">FAQ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/dentists-seattle-resources/">Forms</a>
+                        <a class="nav-link" href="https://integrativedentistry.curveconnex.com/login/">Forms</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link navbar-close-location" href="/#location">Location/Hours</a>

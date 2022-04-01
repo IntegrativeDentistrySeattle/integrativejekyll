@@ -590,6 +590,7 @@ a:hover {
     text-transform: uppercase;
 }
 
+.faq-wrapper,
 .service-wrapper,
 .post-list-title,
 .post-title,
@@ -752,6 +753,87 @@ label.error {
 .sticky-nav {
     z-index: 1000;
     background-color:white;
+}
+
+.value-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.value-cmd {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 16px;
+}
+
+.value-single {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.text-bubble {
+    -webkit-animation: fadeIn .25s ease;
+    animation: fadeIn .25s ease;
+    position: fixed;
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    right: 30px;
+    bottom: 30px;
+    z-index: 99999999;
+}
+
+.text-bubble-bubble {
+    width: 57px;
+    height: 57px;
+    -webkit-box-align: center;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 99999px;
+    box-sizing: border-box;
+    color: #fff;
+    outline: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #0c0d0d;
+}
+
+.faq-question {
+    font-weight: bold;
+}
+
+.faq-header {
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+}
+
+.faq-block .row {
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+
+.faq-block a {
+    color:#9b9b9b;
+}
+
+.faq-block .faq-answer {
+    color:#34b2b6;
+    font-weight:400;
 }
 
 #navbarSupportedContent {

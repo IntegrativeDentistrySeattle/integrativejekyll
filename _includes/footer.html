@@ -1,108 +1,129 @@
 </div>
-        <footer class="footer footer-wrapper">
-          <div class="container">
-            <div class="row">
-              <div class="col-xl-3 col-lg-3 col-6">
-                <h3 class="footer-menu-title">SERVICES</h3>
-                <ul class="footer-menu">
-                    {% for serv in site.services %}
-                    {% if serv.dropdown %}
-                    <li class="footer-menu-item">
-                      <a class="footer-menu-link" href={{serv.url}}>
-                        {% if serv.title == "Biocompatibility Testing"  or serv.title == "Intravenous Therapy" or serv.title == "Muscle Testing" %}
-                        <font color="#34b2b6">COMING SOON! </font>
-                        {% endif %}
-                        {% if serv.title == "Teledentistry"  or serv.title == "Dental Anxiety Clearing" or serv.title == "Airway Optimization"  or serv.title == "Facial Esthetics"%}
-                        <font color="#34b2b6">NEW! </font>
-                        {% endif %}
-                        {{ serv.pagetitle }}
-                      </a>
-                    </li>
-                    {% endif %}
-                    {% endfor %}
-                </ul>
-              </div>
-              <div class="col-xl-3 col-lg-3 col-6">
-                <h3 class="footer-menu-title">OVERVIEW</h3>
-                <ul class="footer-menu">
-                  <li class="footer-menu-item">
-                    <a href="/meet-the-doctors/" class="footer-menu-link">Meet Your Dentists</a>
-                  </li>
-                  <li class="footer-menu-item">
-                    <a href="/meet-the-hygienists/" class="footer-menu-link">Meet Your Hygienists</a>
-                  </li>
-                  <li class="footer-menu-item">
-                    <a href="/services/natural-dentistry-seattle" class="footer-menu-link">Biological Dentistry</a>
-                  </li>
-                  <li class="footer-menu-item">
-                      <a class="footer-menu-link" href="/news">News</a>
-                  </li>
-                  <li class="footer-menu-item">
-                      <a class="footer-menu-link" href="/blog">Posts</a>
-                  </li>
-                  <li class="footer-menu-item">
-                    <a href="/about-us/naturopathic-dentist-seattle-office" class="footer-menu-link">Our Office and Technology</a>
-                  </li>
-                  <li class="footer-menu-item">
-                    <a href="/about-us/demystifying-dental-procedures" class="footer-menu-link">Demystifying Dental Procedures</a>
-                  </li>
-                  <li class="footer-menu-item">
-                    <a href="/about-us/seattle-holistic-dentist-why-different" class="footer-menu-link">Why We Are Different</a>
-                  </li>
-                  <li class="footer-menu-item">
-                    <a href="/dentists-seattle-resources/" class="footer-menu-link">Forms</a>
-                  </li>
-                  <li class="footer-menu-item">
-                    <a href="/#location" class="footer-menu-link">Location/Hours</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-xl-3 col-lg-3 col-6">
-                <h3 class="footer-menu-title">CONTACT US</h3>
-                Call Us Now at:
-                <br>
-                <a href="tel:(206) 367-6453">(206) 367-6453</a>
-                <br>
-                to schedule your visit!
-                <div><a class="btn book-button footer-button" role="button" href="/request-call/">REQUEST PHONE CALL</a></div>
-              </div>
-              <div class="col-xl-3 col-lg-3 col-6">
-                <div class="footer-social mb-4">
-                  <a href="https://www.yelp.com/biz/integrative-dentistry-seattle" target="_blank">
-                    <span class="fab fa-yelp footer-icon"></span>
-                  </a>
-                  <a href="https://www.facebook.com/IntegrativeDentistrySeattle/" target="_blank">
-                    <span class="fab fa-facebook-square footer-icon"></span>
-                  </a>
-                </div>
-                <div class="mb-4">
-                  <a href="https://search.google.com/local/writereview?placeid=ChIJyVm_a_8TkFQRbV0GPy5LEhI" target="_blank">
-                    <img class="footer-google" src="/assets/images/Google-Reviews.png" alt="Google Reviews *****">
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </footer>
-        <div class="contact-footer">
-          <a href="tel:(206) 367-6453" class="contact-footer-number">
-            <span class="fas fa-phone"></span>
-            (206) 367-6453
+<footer class="footer footer-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-3 col-lg-3 col-6">
+        <h3 class="footer-menu-title">SERVICES</h3>
+        <ul class="footer-menu">
+          {% for serv in site.services %}
+          {% if serv.dropdown %}
+          <li class="footer-menu-item">
+            <a class="footer-menu-link" href={{serv.url}}>
+              {% if serv.title == "Biocompatibility Testing" or serv.title == "Intravenous Therapy" or serv.title ==
+              "Muscle Testing" %}
+              <font color="#34b2b6">COMING SOON! </font>
+              {% endif %}
+              {% if serv.title == "Teledentistry" or serv.title == "Dental Anxiety Clearing" or serv.title == "Airway
+              Optimization" or serv.title == "Facial Esthetics" or serv.title == "Perio Protect Trays" or serv.title ==
+              "Guided Biofilm Therapy"%}
+              <font color="#34b2b6">NEW! </font>
+              {% endif %}
+              {{ serv.pagetitle }}
+            </a>
+          </li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-xl-3 col-lg-3 col-6">
+        <h3 class="footer-menu-title">OVERVIEW</h3>
+        <ul class="footer-menu">
+          <li class="footer-menu-item">
+            <a href="/meet-the-doctors/" class="footer-menu-link">Meet Your Dentists</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="/about-us/our-values" class="footer-menu-link">Our Values</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="/meet-the-hygienists/" class="footer-menu-link">Meet Your Hygienists</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="/services/natural-dentistry-seattle" class="footer-menu-link">Biological Dentistry</a>
+          </li>
+          <li class="footer-menu-item">
+            <a class="footer-menu-link" href="/news">News</a>
+          </li>
+          <li class="footer-menu-item">
+            <a class="footer-menu-link" href="/blog">Posts</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="/about-us/naturopathic-dentist-seattle-office" class="footer-menu-link">Our Office and
+              Technology</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="/about-us/demystifying-dental-procedures" class="footer-menu-link">Demystifying Dental
+              Procedures</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="/about-us/seattle-holistic-dentist-why-different" class="footer-menu-link">Why We Are Different</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="/faq" class="footer-menu-link">FAQ</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="https://integrativedentistry.curveconnex.com/login/" class="footer-menu-link">Forms</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="/#location" class="footer-menu-link">Location/Hours</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xl-3 col-lg-3 col-6">
+        <h3 class="footer-menu-title">CONTACT US</h3>
+        Call Us Now at:
+        <br>
+        <a href="tel:(206) 367-6453">(206) 367-6453</a>
+        <br>
+        to schedule your visit!
+        <div><a class="btn book-button footer-button" role="button" href="/request-call/">REQUEST PHONE CALL</a></div>
+      </div>
+      <div class="col-xl-3 col-lg-3 col-6">
+        <div class="footer-social mb-4">
+          <a href="https://www.yelp.com/biz/integrative-dentistry-seattle" target="_blank">
+            <span class="fab fa-yelp footer-icon"></span>
           </a>
-          <button class="contact-footer-info">
-            <span class="info-icon fas fa-info"></span>
-          </button>
-          <ul class="contact-footer-menu">
-            <li class="contact-footer-item">
-              <a href="/#location">Find Us</a>
-            </li>
-            <li class="contact-footer-item">
-              <a href="/#location">Hours</a>
-            </li>
-          </ul>
+          <a href="https://www.facebook.com/IntegrativeDentistrySeattle/" target="_blank">
+            <span class="fab fa-facebook-square footer-icon"></span>
+          </a>
         </div>
-        <script src="/assets/js/bootstrap.bundle.min.js"></script>
-        <script defer src="https://connect.podium.com/widget.js#API_TOKEN=3eeb404b-dc08-4048-9d53-337ced3efbaf" id="podium-widget" data-api-token="3eeb404b-dc08-4048-9d53-337ced3efbaf"></script>
+        <div class="mb-4">
+          <a href="https://search.google.com/local/writereview?placeid=ChIJyVm_a_8TkFQRbV0GPy5LEhI" target="_blank">
+            <img class="footer-google" src="/assets/images/Google-Reviews.png" alt="Google Reviews *****">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="contact-footer">
+  <a href="tel:(206) 367-6453" class="contact-footer-number">
+    <span class="fas fa-phone"></span>
+    (206) 367-6453
+  </a>
+  <button class="contact-footer-info">
+    <span class="info-icon fas fa-info"></span>
+  </button>
+  <ul class="contact-footer-menu">
+    <li class="contact-footer-item">
+      <a href="/#location">Find Us</a>
+    </li>
+    <li class="contact-footer-item">
+      <a href="/#location">Hours</a>
+    </li>
+  </ul>
+</div>
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+
+<div style="display: block!important;">
+  <div class="text-bubble">
+    <button class="text-bubble-bubble" aria-label="Chat widget open">
+      <a
+        href="sms://+18446750169;?&body=Hello%20there">
+        <span style="color:white" class="fas fa-comment-dots fa-flip-horizontal fa-2x"></span>
+      </a>
+    </button>
+  </div>
+</div>
 </body>
 
 </html>
