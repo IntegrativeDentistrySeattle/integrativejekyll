@@ -1,12 +1,12 @@
 ---
 layout: service
-title: Core Values
-pagetitle: Core Values
+title: Our Values
+pagetitle: Our Values
 order:
 dropdown: false
 inSeattle: false
 description: 
-permalink: /about-us/core-values/
+permalink: /about-us/our-values/
 ---
 
 <div class="value-title" style="color: #26a29a">Trust</div>
