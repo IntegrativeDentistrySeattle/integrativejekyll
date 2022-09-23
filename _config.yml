@@ -45,7 +45,6 @@ collections:
     order:
       - biocompatibility-testing.md
       - intravenous-therapy.md
-      - muscle-testing.md
       - guided-biofilm-therapy.md
       - perio-protect-trays.md
       - facial-esthetics.md
@@ -64,7 +63,6 @@ collections:
       - orthodontics.md
       - ozone-therapy.md
       - periodontics.md
-      - pinhole-surgical-technique.md
       - plaque-microscopy.md
       - safe-mercury-removal.md
       - saliva-testing.md

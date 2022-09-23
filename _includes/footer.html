@@ -9,8 +9,7 @@
           {% if serv.dropdown %}
           <li class="footer-menu-item">
             <a class="footer-menu-link" href={{serv.url}}>
-              {% if serv.title == "Biocompatibility Testing" or serv.title == "Intravenous Therapy" or serv.title ==
-              "Muscle Testing" %}
+              {% if serv.title == "Biocompatibility Testing" or serv.title == "Intravenous Therapy" %}
               <font color="#34b2b6">COMING SOON! </font>
               {% endif %}
               {% if serv.title == "Teledentistry" or serv.title == "Dental Anxiety Clearing" or serv.title == "Airway
@@ -117,8 +116,7 @@
 <div style="display: block!important;">
   <div class="text-bubble">
     <button class="text-bubble-bubble" aria-label="Chat widget open">
-      <a
-        href="sms://+18446750169;?&body=Hello%20there">
+      <a href="sms://+18446750169;?&body=Hello%20there">
         <span style="color:white" class="fas fa-comment-dots fa-flip-horizontal fa-2x"></span>
       </a>
     </button>
