@@ -1,9 +1,9 @@
 ---
 firstname: Paul
 lastname: Rubin
-order: 3
+order: 9
 image: RubinCircle.png
-frontpage: true
+frontpage: false
 ---
 
 Dr. Rubin is one of this area’s pioneers in mercury safe dentistry, abandoning the use of mercury amalgam (“silver”) dental fillings in 1980. One of the early members of the International Academy of Oral Medicine and Toxicology (IAOMT), he has served in various offices and on its Board of Directors for several years, helping to see it grow into one of the world’s leading authoritative bodies in the area of mercury and other toxins in dentistry. Dr. Rubin was honored as a Fellow of the IAOMT in 1992, and a Master of the IAOMT in 2007. Dr. Rubin is also a charter member of the International Association of Mercury Free Dentists. In 2009, Dr. Rubin co-founded New Directions Dentistry, a company dedicated to teaching dentists nationwide how to practice mercury safe dentistry.
