@@ -45,15 +45,14 @@ collections:
     order:
       - biocompatibility-testing.md
       - intravenous-therapy.md
+      - myofunctional-therapy.md
       - guided-biofilm-therapy.md
-      - perio-protect-trays.md
       - facial-esthetics.md
-      - teledentistry.md
-      - dental-anxiety-clearing.md
-      - airway-optimization.md
       - advanced-prf-platelet-rich-fibrin.md
+      - airway-optimization.md
       - childrens-dentistry.md
       - cosmetic-dentistry.md
+      - dental-anxiety-clearing.md
       - invisalign.md
       - laser-therapy.md
       - mercury-bpa-free-fillings.md
@@ -62,6 +61,7 @@ collections:
       - natural-dentistry.md
       - orthodontics.md
       - ozone-therapy.md
+      - perio-protect-trays.md
       - periodontics.md
       - plaque-microscopy.md
       - safe-mercury-removal.md
@@ -70,6 +70,7 @@ collections:
       - sedation-dentistry.md
       - sleep-apnea-treatment.md
       - swiss-surgical-technique.md
+      - teledentistry.md
       - tmj-treatment.md
       - zirconia-implants.md
   about-us:
